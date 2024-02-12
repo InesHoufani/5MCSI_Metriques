@@ -14,7 +14,7 @@ def MaPremiereAPI():
 def hello_world():
       return render_template('hello.html') #Comm
 
-@app.route('/')
+@app.route('/contact/')
 def contact():
       return render_template('contact.html')
 
