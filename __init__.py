@@ -15,7 +15,7 @@ def hello_world():
       return render_template('hello.html') #Comm
 
 @app.route('/')
-def hello_world():
+def contact():
       return render_template('contact.html')
 
 @app.route('/paris/')
